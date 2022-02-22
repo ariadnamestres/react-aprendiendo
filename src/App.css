@@ -1,0 +1,75 @@
+body,
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+
+.HolyGrail-content {
+  flex: 1;
+}
+
+.HolyGrail-nav,
+.HolyGrail-ads {
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+
+header,
+footer {
+  background-color: rgb(231, 180, 117);
+  line-height: 5rem;
+  font-size: medium;
+  padding: 0, 1rem;
+}
+
+main,
+nav,
+aside {
+  border: solid black 1px;
+  padding: 1rem;
+}
+
+footer {
+  line-height: 3rem;
+}
+
+/* ESTOS SON LOS EFECTOS DE GALE */
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.gran {
+  width: 300px;
+  height: 300px;
+}
+
+.visible {
+  width: 300px;
+  height: 300px;
+  display: auto;
+}
+
+.amagada {
+  display: none;
+}
+
+/* ESTOS SON LOS EFECTOS DE BOTON  */
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: aqua;
+}
