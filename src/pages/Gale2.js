@@ -28,7 +28,7 @@ export default function Gale2() {
 
       {art.map((i, index) => (
         <img
-          src={"./imagenes/" + i}
+          src={process.env.PUBLIC_URL + "/imagenes/" + i}
           alt={art}
           className={index === currentFoto ? cssClass : "amagada"}
         />

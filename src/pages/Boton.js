@@ -10,12 +10,13 @@ export default function Boton() {
   };
 
   return (
-    <>
-      <button style={{ background: color }} onClick={togle}>
+    <div className="Lol">
+      <h1> TOGGLE</h1>
+      <button className="Toggle" style={{ background: color }} onClick={togle}>
         CANVI COLOR
       </button>
-      {apretado ? <p> esta apretadito</p> : <p>No apretado</p>}
-    </>
+      {apretado ? <p> Está apretado </p> : <p>No apretado</p>}
+    </div>
   );
 }
 

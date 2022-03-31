@@ -14,19 +14,38 @@ export default function Layout() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/Comptador">Contador</Link>
+              <Link to="/Comptador">Contador normal</Link>
             </li>
             <li>
-              <Link to="/Gale"> Galeria!</Link>
+              <Link to="/Gale"> Galeria ampliable</Link>
             </li>
             <li>
-              <Link to="/Gale2"> Galeria 2 </Link>
+              <Link to="/Gale2"> Carrusel </Link>
             </li>
             <li>
               <Link to="/Acordi"> Acordeon </Link>
             </li>
             <li>
-              <Link to="/Boton"> Boton </Link>
+              <Link to="/Boton"> Boton/Toggle </Link>
+            </li>
+            <li>
+              <Link to="/Vector"> Vector </Link>
+            </li>
+            <li>
+              <Link to="/Comptadornou"> Comptador reducer</Link>
+            </li>
+            <li>
+              <Link to="/Todolist"> To do list , versión 1.</Link>
+            </li>
+
+            <li>
+              <Link to="/Counter"> Contador con redux </Link>
+            </li>
+            <li>
+              <Link to="/Calculadora"> Calculadora</Link>
+            </li>
+            <li>
+              <Link to="/RellotgeDigital"> Rellotge Digital</Link>
             </li>
             {/* {Llistat} */}
           </ul>
