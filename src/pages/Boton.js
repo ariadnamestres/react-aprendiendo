@@ -19,5 +19,3 @@ export default function Boton() {
     </div>
   );
 }
-
-//   color === red ? setColor("blue"):setColor("red")
